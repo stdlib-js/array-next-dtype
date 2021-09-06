@@ -132,6 +132,21 @@ for ( i = 0; i < DTYPES.length; i++ ) {
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/array/dtype`][@stdlib/array/dtype]: return the data type of an array.
+-   [`@stdlib/array/dtypes`][@stdlib/array/dtypes]: list of array data types.
+
+</section>
+
+<!-- /.related -->
+
 <!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
 
@@ -189,7 +204,13 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/array-next-dtype/main/LICENSE
 
+<!-- <related-links> -->
+
+[@stdlib/array/dtype]: https://github.com/stdlib-js/array-dtype
+
 [@stdlib/array/dtypes]: https://github.com/stdlib-js/array-dtypes
+
+<!-- </related-links> -->
 
 </section>
 
