@@ -18,7 +18,7 @@ limitations under the License.
 
 -->
 
-# Next Data Type
+# nextDataType
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
@@ -64,7 +64,7 @@ var out = nextDataType( 'float32' );
 If a [data type][@stdlib/array/dtypes] does not have a next larger [data type][@stdlib/array/dtypes] or the next larger data type is not supported, the function returns `-1`.
 
 ```javascript
-var out = nextDataType( 'float64' );
+var out = nextDataType( 'complex128' );
 // returns -1
 ```
 
