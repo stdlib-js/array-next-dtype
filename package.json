@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/array-next-dtype",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Return the next larger array data type of the same kind.",
   "license": "Apache-2.0",
   "author": {
