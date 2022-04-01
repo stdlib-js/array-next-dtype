@@ -1,0 +1,33 @@
+{
+  "name": "@stdlib/array-next-dtype",
+  "version": "0.0.0",
+  "description": "Return the next larger array data type of the same kind.",
+  "license": "Apache-2.0",
+  "main": "./bundle.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/array-next-dtype.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdtypes",
+    "types",
+    "array",
+    "casting",
+    "cast",
+    "rules",
+    "promotion",
+    "utilities",
+    "utility",
+    "utils",
+    "util"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
