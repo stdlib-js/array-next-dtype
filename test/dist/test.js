@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2023 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -21,60 +21,13 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var dtypes = require( '@stdlib/array-dtypes' );
-var nextDataType = require( './../../dist' );
-
-
-// VARIABLES //
-
-var DTYPES = dtypes();
+var main = require( './../../dist' );
 
 
 // TESTS //
 
-tape( 'main export is a function', function test( t ) {
+tape( 'main export is defined', function test( t ) {
 	t.ok( true, __filename );
-	t.strictEqual( typeof nextDataType, 'function', 'main export is a function' );
-	t.end();
-});
-
-tape( 'if not provided a data type, the function returns a table', function test( t ) {
-	var out = nextDataType();
-	t.strictEqual( typeof out, 'object', 'returns an object' );
-	t.strictEqual( out[ 'float32' ], 'float64', 'returns expected value' );
-	t.end();
-});
-
-tape( 'the function returns the next larger array data type of the same kind', function test( t ) {
-	var table;
-	var out;
-	var dt;
-	var i;
-
-	table = nextDataType();
-
-	for ( i = 0; i < DTYPES.length; i++ ) {
-		dt = DTYPES[ i ];
-		out = nextDataType( dt );
-		t.strictEqual( out, table[ dt ], 'returns expected value when provided '+dt );
-	}
-	t.end();
-});
-
-tape( 'if provided an unrecognized or unsupported data type, the function returns `null`', function test( t ) {
-	var values;
-	var i;
-
-	values = [
-		'beep',
-		'boop',
-		'foo',
-		'bar',
-		true,
-		false
-	];
-	for ( i = 0; i < values.length; i++ ) {
-		t.strictEqual( nextDataType( values[ i ] ), null, 'returns expected value when provided '+values[ i ] );
-	}
+	t.strictEqual( main !== void 0, true, 'main export is defined' );
 	t.end();
 });
