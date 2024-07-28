@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import nextDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-next-dtype@esm/index.mjs';
+import nextDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-next-dtype@v0.3.0-esm/index.mjs';
 ```
 
 #### nextDataType( \[dtype] )
@@ -112,7 +112,7 @@ var out = nextDataType( 'foo' );
 <script type="module">
 
 import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-dtypes@esm/index.mjs';
-import nextDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-next-dtype@esm/index.mjs';
+import nextDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-next-dtype@v0.3.0-esm/index.mjs';
 
 var DTYPES;
 var dt;
