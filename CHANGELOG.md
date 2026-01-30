@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-08)
+## Unreleased (2026-01-30)
 
 <section class="issues">
 
@@ -25,7 +25,7 @@ This release closes the following issue:
 <details>
 
 -   [`07f7c05`](https://github.com/stdlib-js/stdlib/commit/07f7c0522c73e6ad9505e1d45035ae439344200d) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
--   [`ddff844`](https://github.com/stdlib-js/stdlib/commit/ddff84477a48d5f684eb4c828a2067a90849382d) - **chore:** fix EditorConfig lint errors [(#6869)](https://github.com/stdlib-js/stdlib/pull/6869) _(by zhanggy)_
+-   [`ddff844`](https://github.com/stdlib-js/stdlib/commit/ddff84477a48d5f684eb4c828a2067a90849382d) - **chore:** fix EditorConfig lint errors [(#6869)](https://github.com/stdlib-js/stdlib/pull/6869) _(by Geo Daoyu)_
 
 </details>
 
@@ -39,8 +39,8 @@ This release closes the following issue:
 
 A total of 2 people contributed to this release. Thank you to the following contributors:
 
+-   Geo Daoyu
 -   Philipp Burckhardt
--   zhanggy
 
 </section>
 
