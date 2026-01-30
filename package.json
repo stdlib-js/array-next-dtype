@@ -39,7 +39,8 @@
   "dependencies": {
     "@stdlib/assert-has-own-property": "^0.2.2",
     "@stdlib/types": "^0.4.3",
-    "@stdlib/utils-keys": "^0.2.2"
+    "@stdlib/utils-keys": "^0.2.2",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
   "devDependencies": {
     "@stdlib/array-dtypes": "^0.3.0",
